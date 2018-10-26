@@ -1,6 +1,5 @@
 import requests
 import numpy as np
-import json
 
 
 def melhor_ordem(lista_matrizes):
@@ -138,6 +137,9 @@ def main():
     saida1 = multiplicar_matrizes(resp['matrizes'])
 
     saida2 = multiplicar_numpy(resp['matrizes'])
+
+    print (saida1)
+    print (saida2)
 
 #==============================================================
 
